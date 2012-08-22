@@ -16,3 +16,7 @@ profile
 
 # AppCode
 .idea/*
+
+# cocoa pods
+Pods/*
+Podfile.lock

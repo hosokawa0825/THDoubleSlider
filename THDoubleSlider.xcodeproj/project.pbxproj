@@ -10,6 +10,7 @@
 		8E53BEBB15E396C50039B3DF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD714C3C357E4F8C06204B1 /* ViewController.xib */; };
 		8E53BEDF15E39D750039B3DF /* UIWindow+MySendEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E53BEDE15E39D750039B3DF /* UIWindow+MySendEvent.m */; };
 		8E53BEE015E39D750039B3DF /* UIWindow+MySendEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E53BEDE15E39D750039B3DF /* UIWindow+MySendEvent.m */; };
+		A0D52637E2C840B7A226DAD1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0054D4ACB84A75B9E98B23 /* libPods.a */; };
 		FCD71008FFD291028BDEF212 /* handleMax.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD7155A066A9A46AEDB3AE1 /* handleMax.png */; };
 		FCD71031351CF01F764394E7 /* handleMax.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD7155A066A9A46AEDB3AE1 /* handleMax.png */; };
 		FCD7106EBA739290EADE2985 /* THDoubleSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD7154517D66BF82340D967 /* THDoubleSlider.m */; };
@@ -20,10 +21,8 @@
 		FCD711C79B1DF548A66E78BC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD717BCF02C3EB7B994BB63 /* SenTestingKit.framework */; };
 		FCD7121FACA72859ECCD46F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCD7110BE7603494019F83E3 /* InfoPlist.strings */; };
 		FCD712471D6E31ADE242566C /* UIColor+MoreColors.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD719F4F1C9F68AF25377F8 /* UIColor+MoreColors.m */; };
-		FCD712C6DBD8786077140842 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD71B240260CF54B8703B8D /* JRSwizzle.m */; };
 		FCD712DBC99FAB01E18A2D80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD71791D5E1F2207359C020 /* main.m */; };
 		FCD71383FFD7B3A2BB0A1B18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD71CB094C07BA23268BA06 /* UIKit.framework */; };
-		FCD713C540A81C05039F2397 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD71B240260CF54B8703B8D /* JRSwizzle.m */; };
 		FCD713E5B39C18530E33420E /* handleMin.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD71F706F0FE858AEE30A6D /* handleMin.png */; };
 		FCD7149ED6A049D4D25D60FB /* handle.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD714A36AA9CAB8A5F7958C /* handle.png */; };
 		FCD7156D5CC0D6C472880A21 /* UIView+InnerShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD71F6C7A970752E0829B65 /* UIView+InnerShadow.m */; };
@@ -57,15 +56,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83A5DD24219E4D09BA6F2501 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		8A0054D4ACB84A75B9E98B23 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPods.a; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E53BEDD15E39D750039B3DF /* UIWindow+MySendEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+MySendEvent.h"; sourceTree = "<group>"; };
 		8E53BEDE15E39D750039B3DF /* UIWindow+MySendEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+MySendEvent.m"; sourceTree = "<group>"; };
 		FCD710E8443443C5DBBBF874 /* THSliderBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THSliderBar.h; sourceTree = "<group>"; };
-		FCD711B21AF09FF0F4077919 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCD711B21AF09FF0F4077919 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCD7120DC1E4CB21842B3688 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FCD712B12B743A146160BBEA /* UIView+InnerShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+InnerShadow.h"; sourceTree = "<group>"; };
 		FCD71369ECCA9B5E25F28EBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FCD713ACD7E450FE02E90F67 /* THDoubleSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THDoubleSlider.h; sourceTree = "<group>"; };
-		FCD7140DAD4914B5F578B031 /* THDoubleSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THDoubleSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD7140DAD4914B5F578B031 /* THDoubleSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = THDoubleSlider.app; path = THDoubleSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD71483D741530301B1BE88 /* THDoubleSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THDoubleSliderTests.m; sourceTree = "<group>"; };
 		FCD714A36AA9CAB8A5F7958C /* handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handle.png; sourceTree = "<group>"; };
 		FCD7154517D66BF82340D967 /* THDoubleSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THDoubleSlider.m; sourceTree = "<group>"; };
@@ -80,14 +81,12 @@
 		FCD7197EA001A97D95D95E2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FCD719F4F1C9F68AF25377F8 /* UIColor+MoreColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MoreColors.m"; sourceTree = "<group>"; };
 		FCD71A1707C5B366A6C3360F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FCD71A59315EF4ABB45805F9 /* THDoubleSliderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THDoubleSliderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCD71A5B67C948A12D50EF5E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		FCD71A780008B4E0C2D0AD4F /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		FCD71A59315EF4ABB45805F9 /* THDoubleSliderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = THDoubleSliderTests.octest; path = THDoubleSliderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD71A5B67C948A12D50EF5E /* QuartzCore.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FCD71A7BE8BA275320FE42D4 /* THDoubleSlider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "THDoubleSlider-Prefix.pch"; sourceTree = "<group>"; };
-		FCD71B240260CF54B8703B8D /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
 		FCD71B9DA2172859F4DF9DEA /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ViewController.xib; path = ../en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		FCD71CB094C07BA23268BA06 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		FCD71CF00977EEB087707E44 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FCD71CB094C07BA23268BA06 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FCD71CF00977EEB087707E44 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		FCD71E50B95A58DF07299C82 /* THDoubleSlider-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "THDoubleSlider-Info.plist"; sourceTree = "<group>"; };
 		FCD71E675ACC8CD7635F73B9 /* THDoubleSliderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THDoubleSliderTests.h; sourceTree = "<group>"; };
 		FCD71F22EC583B430B0422AB /* THSliderBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THSliderBar.m; sourceTree = "<group>"; };
@@ -116,6 +115,7 @@
 				FCD71E831957A75474EF94A8 /* Foundation.framework in Frameworks */,
 				FCD71851671C5E15A0562ADC /* CoreGraphics.framework in Frameworks */,
 				FCD718A223E4125FCCAB17A4 /* QuartzCore.framework in Frameworks */,
+				A0D52637E2C840B7A226DAD1 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +128,6 @@
 				FCD7157B8D7561DB9A9E52C2 /* Supporting Files */,
 				FCD717E31F28F859019BA10C /* example */,
 				FCD71AC2B4EB57740E33CAE7 /* classes */,
-				FCD71BE4D7B1B8FBBC5488A5 /* submodules */,
 				FCD71375C37DE8527D8EA467 /* resources */,
 			);
 			path = THDoubleSlider;
@@ -164,6 +163,7 @@
 				FCD71CF00977EEB087707E44 /* CoreGraphics.framework */,
 				FCD711B21AF09FF0F4077919 /* Foundation.framework */,
 				FCD71CB094C07BA23268BA06 /* UIKit.framework */,
+				8A0054D4ACB84A75B9E98B23 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -175,6 +175,7 @@
 				FCD71719B49D92C6CF1DAD56 /* Frameworks */,
 				FCD71040B2C6923CCB30F5F0 /* THDoubleSlider */,
 				FCD71E3DA91DDD23A3C9411D /* THDoubleSliderTests */,
+				83A5DD24219E4D09BA6F2501 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -193,6 +194,10 @@
 		FCD71AC2B4EB57740E33CAE7 /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				FCD71F6C7A970752E0829B65 /* UIView+InnerShadow.m */,
+				FCD712B12B743A146160BBEA /* UIView+InnerShadow.h */,
+				FCD719F4F1C9F68AF25377F8 /* UIColor+MoreColors.m */,
+				FCD71FB2E36E0FFEB6D6A561 /* UIColor+MoreColors.h */,
 				FCD71F22EC583B430B0422AB /* THSliderBar.m */,
 				FCD710E8443443C5DBBBF874 /* THSliderBar.h */,
 				FCD718B12476CEE8B4372007 /* THDoubleSliderHandle.m */,
@@ -212,19 +217,6 @@
 				FCD71A59315EF4ABB45805F9 /* THDoubleSliderTests.octest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		FCD71BE4D7B1B8FBBC5488A5 /* submodules */ = {
-			isa = PBXGroup;
-			children = (
-				FCD71B240260CF54B8703B8D /* JRSwizzle.m */,
-				FCD71A780008B4E0C2D0AD4F /* JRSwizzle.h */,
-				FCD71F6C7A970752E0829B65 /* UIView+InnerShadow.m */,
-				FCD712B12B743A146160BBEA /* UIView+InnerShadow.h */,
-				FCD719F4F1C9F68AF25377F8 /* UIColor+MoreColors.m */,
-				FCD71FB2E36E0FFEB6D6A561 /* UIColor+MoreColors.h */,
-			);
-			path = submodules;
 			sourceTree = "<group>";
 		};
 		FCD71E3DA91DDD23A3C9411D /* THDoubleSliderTests */ = {
@@ -275,6 +267,7 @@
 				FCD71E5FC35F757CC20DD250 /* Sources */,
 				FCD71C33A20848C7B3DFD2F0 /* Frameworks */,
 				FCD713CAF4529C192E2F393B /* Resources */,
+				2CE9277772BB4E41AE012FD4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -338,6 +331,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2CE9277772BB4E41AE012FD4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 		FCD7102ED4299E7AC498A1B6 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -364,7 +371,6 @@
 				FCD7106EBA739290EADE2985 /* THDoubleSlider.m in Sources */,
 				FCD71EEDE29CB92A0A4F7C26 /* THDoubleSliderHandle.m in Sources */,
 				FCD71A47955E21C8FCCA00DD /* THSliderBar.m in Sources */,
-				FCD713C540A81C05039F2397 /* JRSwizzle.m in Sources */,
 				8E53BEE015E39D750039B3DF /* UIWindow+MySendEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,7 +387,6 @@
 				FCD71144E7A8D9168EF37E38 /* THDoubleSlider.m in Sources */,
 				FCD7107765D36B992D8BDC06 /* THDoubleSliderHandle.m in Sources */,
 				FCD718A0AB00E45AC368F806 /* THSliderBar.m in Sources */,
-				FCD712C6DBD8786077140842 /* JRSwizzle.m in Sources */,
 				8E53BEDF15E39D750039B3DF /* UIWindow+MySendEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,6 +497,7 @@
 		};
 		FCD714E5432F5573EC39D0C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83A5DD24219E4D09BA6F2501 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "THDoubleSlider/THDoubleSlider-Prefix.pch";
@@ -520,6 +526,7 @@
 		};
 		FCD71B050E4B07F8DADAAD78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83A5DD24219E4D09BA6F2501 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "THDoubleSlider/THDoubleSlider-Prefix.pch";
