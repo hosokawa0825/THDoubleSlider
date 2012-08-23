@@ -12,7 +12,9 @@ Features
 
 How to run demo
 ------
-Open THDoubleSlider.xcodeproj and run.
+1. clone repository to local
+2. At THDoubleSlider folder, exec `pod install`
+3. Open THDoubleSlider.xcworkspace and run.
 
 How to use
 ------
