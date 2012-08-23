@@ -27,9 +27,11 @@
 		FCD7149ED6A049D4D25D60FB /* handle.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD714A36AA9CAB8A5F7958C /* handle.png */; };
 		FCD7156D5CC0D6C472880A21 /* UIView+InnerShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD71F6C7A970752E0829B65 /* UIView+InnerShadow.m */; };
 		FCD715AD74BDFAA340BE5F3F /* THDoubleSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD71483D741530301B1BE88 /* THDoubleSliderTests.m */; };
+		FCD7167588045BD7D9E3EACE /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD7166DD15A54CE1162B15F /* JRSwizzle.m */; };
 		FCD71851671C5E15A0562ADC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD71CF00977EEB087707E44 /* CoreGraphics.framework */; };
 		FCD718A0AB00E45AC368F806 /* THSliderBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD71F22EC583B430B0422AB /* THSliderBar.m */; };
 		FCD718A223E4125FCCAB17A4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD71A5B67C948A12D50EF5E /* QuartzCore.framework */; };
+		FCD718E20BCF27E05E7A7693 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD7166DD15A54CE1162B15F /* JRSwizzle.m */; };
 		FCD719BDE564BD259CDBA8F0 /* handleMin.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD71F706F0FE858AEE30A6D /* handleMin.png */; };
 		FCD71A0652E8833A1A62F7F5 /* UIView+InnerShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD71F6C7A970752E0829B65 /* UIView+InnerShadow.m */; };
 		FCD71A47955E21C8FCCA00DD /* THSliderBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD71F22EC583B430B0422AB /* THSliderBar.m */; };
@@ -56,8 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		83A5DD24219E4D09BA6F2501 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
-		8A0054D4ACB84A75B9E98B23 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPods.a; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A0054D4ACB84A75B9E98B23 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E53BEDD15E39D750039B3DF /* UIWindow+MySendEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+MySendEvent.h"; sourceTree = "<group>"; };
 		8E53BEDE15E39D750039B3DF /* UIWindow+MySendEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+MySendEvent.m"; sourceTree = "<group>"; };
 		FCD710E8443443C5DBBBF874 /* THSliderBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THSliderBar.h; sourceTree = "<group>"; };
@@ -66,13 +67,14 @@
 		FCD712B12B743A146160BBEA /* UIView+InnerShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+InnerShadow.h"; sourceTree = "<group>"; };
 		FCD71369ECCA9B5E25F28EBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FCD713ACD7E450FE02E90F67 /* THDoubleSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THDoubleSlider.h; sourceTree = "<group>"; };
-		FCD7140DAD4914B5F578B031 /* THDoubleSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = THDoubleSlider.app; path = THDoubleSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD7140DAD4914B5F578B031 /* THDoubleSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THDoubleSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD71483D741530301B1BE88 /* THDoubleSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THDoubleSliderTests.m; sourceTree = "<group>"; };
 		FCD714A36AA9CAB8A5F7958C /* handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handle.png; sourceTree = "<group>"; };
 		FCD7154517D66BF82340D967 /* THDoubleSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THDoubleSlider.m; sourceTree = "<group>"; };
 		FCD7155A066A9A46AEDB3AE1 /* handleMax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handleMax.png; sourceTree = "<group>"; };
 		FCD71593C4C4905F8B4045BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCD715B9240897FA832394AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCD7166DD15A54CE1162B15F /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
 		FCD71791D5E1F2207359C020 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCD717BCC23BC36E14A24D2C /* handle_highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handle_highlight.png; sourceTree = "<group>"; };
 		FCD717BCF02C3EB7B994BB63 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -81,7 +83,7 @@
 		FCD7197EA001A97D95D95E2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FCD719F4F1C9F68AF25377F8 /* UIColor+MoreColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MoreColors.m"; sourceTree = "<group>"; };
 		FCD71A1707C5B366A6C3360F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FCD71A59315EF4ABB45805F9 /* THDoubleSliderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = THDoubleSliderTests.octest; path = THDoubleSliderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD71A59315EF4ABB45805F9 /* THDoubleSliderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THDoubleSliderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD71A5B67C948A12D50EF5E /* QuartzCore.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FCD71A7BE8BA275320FE42D4 /* THDoubleSlider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "THDoubleSlider-Prefix.pch"; sourceTree = "<group>"; };
 		FCD71B9DA2172859F4DF9DEA /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ViewController.xib; path = ../en.lproj/ViewController.xib; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 		FCD71CF00977EEB087707E44 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		FCD71E50B95A58DF07299C82 /* THDoubleSlider-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "THDoubleSlider-Info.plist"; sourceTree = "<group>"; };
 		FCD71E675ACC8CD7635F73B9 /* THDoubleSliderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THDoubleSliderTests.h; sourceTree = "<group>"; };
+		FCD71EA5637CA36E31AD85BC /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
 		FCD71F22EC583B430B0422AB /* THSliderBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THSliderBar.m; sourceTree = "<group>"; };
 		FCD71F6C7A970752E0829B65 /* UIView+InnerShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+InnerShadow.m"; sourceTree = "<group>"; };
 		FCD71F706F0FE858AEE30A6D /* handleMin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handleMin.png; sourceTree = "<group>"; };
@@ -129,6 +132,7 @@
 				FCD717E31F28F859019BA10C /* example */,
 				FCD71AC2B4EB57740E33CAE7 /* classes */,
 				FCD71375C37DE8527D8EA467 /* resources */,
+				FCD7192371B229F99F2A7EE0 /* submodules */,
 			);
 			path = THDoubleSlider;
 			sourceTree = "<group>";
@@ -175,7 +179,6 @@
 				FCD71719B49D92C6CF1DAD56 /* Frameworks */,
 				FCD71040B2C6923CCB30F5F0 /* THDoubleSlider */,
 				FCD71E3DA91DDD23A3C9411D /* THDoubleSliderTests */,
-				83A5DD24219E4D09BA6F2501 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -189,6 +192,15 @@
 				FCD714C3C357E4F8C06204B1 /* ViewController.xib */,
 			);
 			path = example;
+			sourceTree = "<group>";
+		};
+		FCD7192371B229F99F2A7EE0 /* submodules */ = {
+			isa = PBXGroup;
+			children = (
+				FCD7166DD15A54CE1162B15F /* JRSwizzle.m */,
+				FCD71EA5637CA36E31AD85BC /* JRSwizzle.h */,
+			);
+			path = submodules;
 			sourceTree = "<group>";
 		};
 		FCD71AC2B4EB57740E33CAE7 /* classes */ = {
@@ -372,6 +384,7 @@
 				FCD71EEDE29CB92A0A4F7C26 /* THDoubleSliderHandle.m in Sources */,
 				FCD71A47955E21C8FCCA00DD /* THSliderBar.m in Sources */,
 				8E53BEE015E39D750039B3DF /* UIWindow+MySendEvent.m in Sources */,
+				FCD718E20BCF27E05E7A7693 /* JRSwizzle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +401,7 @@
 				FCD7107765D36B992D8BDC06 /* THDoubleSliderHandle.m in Sources */,
 				FCD718A0AB00E45AC368F806 /* THSliderBar.m in Sources */,
 				8E53BEDF15E39D750039B3DF /* UIWindow+MySendEvent.m in Sources */,
+				FCD7167588045BD7D9E3EACE /* JRSwizzle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,7 +511,6 @@
 		};
 		FCD714E5432F5573EC39D0C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83A5DD24219E4D09BA6F2501 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "THDoubleSlider/THDoubleSlider-Prefix.pch";
@@ -526,7 +539,6 @@
 		};
 		FCD71B050E4B07F8DADAAD78 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83A5DD24219E4D09BA6F2501 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "THDoubleSlider/THDoubleSlider-Prefix.pch";

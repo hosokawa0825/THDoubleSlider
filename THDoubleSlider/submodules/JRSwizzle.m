@@ -7,6 +7,7 @@
 
 #if TARGET_OS_IPHONE
 	#import <objc/runtime.h>
+	#import <objc/message.h>
 #else
 	#import <objc/objc-class.h>
 #endif
