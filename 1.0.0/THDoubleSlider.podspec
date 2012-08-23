@@ -6,8 +6,8 @@ Pod::Spec.new do |s|
   s.author   = { 'hosokawa0825' => 'globesessions.sub@gmail.com' }
   s.license  = 'MIT'
   s.source   = { :git => 'https://github.com/hosokawa0825/THDoubleSlider.git', :tag => 'v1.0.0' }
-#  s.description = %{}
   s.ios.dependency 'JRSwizzle', '~> 1.0'
-  s.ios.source_files = 'THDoubleSlider/classes'
+  s.ios.source_files = '*.{h,m}'
+#  s.ios.source_files = 'THDoubleSlider/classes'
   s.ios.frameworks   = 'Foundation', 'QuartzCore', 'CoreGraphics', 'UIKit'
 end
