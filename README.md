@@ -10,11 +10,21 @@ Features
 + Move slider handle by inputted number.
 + Value change function is customizable.(defalut is linear)
 
+How to run demo
+------
+Open THDoubleSlider.xcodeproj and run.
+
 How to use
 ------
 1. Installation  
   THDoubleSlider can be added to a project using CocoaPods.  
   (But now podspec file is not added CocoaPods/Specs yet. So please use this spec repo https://github.com/hosokawa0825/Specs)  
+  Execute this command, then added spec repository.  
+  `pod repo add hosokawa0825Specs https://github.com/hosokawa0825/Specs`  
+
+  Podfile example is this. Note that deployment_target => '5.0' is needed.
+    platform :ios, :deployment_target => '5.0'
+    pod 'THDoubleSlider'
 
 2. Method swizzling  
   Add this code to top of didFinishLaunchingWithOptions method.
@@ -27,6 +37,9 @@ How to use
         ...
     }
 
+Documentation
+------
+Please see header files.
 
 License
 ----------
