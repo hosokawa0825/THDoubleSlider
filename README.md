@@ -1,6 +1,8 @@
 THDoubleSlider
 ======================
-A slider that has 2 buttons
+A slider that has 2 buttons  
+
+![](https://github.com/downloads/hosokawa0825/THDoubleSlider/Screenshot_1.png)
 
 Features
 ------
